@@ -1,11 +1,12 @@
 import logo from './logo.svg';
+import Form from './components/Form';
 import './App.css';
 
 function App() {
+  const nome = 'Mariana';
   return (
     <div className="App">
-      <h1>Olá, React!</h1>
-      <p>Primeiro App</p>
+        <Form></Form>
     </div>
   );
 }

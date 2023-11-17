@@ -1,0 +1,45 @@
+.formulario {
+    background-color: #ffffff;
+    border: 1px solid #202020;
+    padding: 1rem;
+    width: 20rem;
+    height: min-content;
+    border-radius: 8px;
+}
+.formWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.labelStyle {
+    display: flex;
+    margin-bottom: 0.5rem;
+}
+.labelStyle input {
+    margin-left: 0.5rem;
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+    background-color: #97d6fd;
+}
+
+.labelSelect {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+
+}
+.select {
+    display: flex;
+    border: 0;
+    border-radius: 8px;
+}
+.labelDate {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+.date {
+    border: 0;
+}

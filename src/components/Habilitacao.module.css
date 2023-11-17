@@ -1,0 +1,12 @@
+.labelSelect {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+
+}
+.select {
+    display: flex;
+    border: 0;
+    vertical-align: middle;
+    border-radius: 8px;
+}
