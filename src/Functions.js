@@ -10,4 +10,8 @@ function cpfFormater(){
     })
 }
 
-export default cpfFormater
+function enviarDados(){
+    alert("Enviou")
+}
+
+export {enviarDados, cpfFormater}

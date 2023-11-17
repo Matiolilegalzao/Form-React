@@ -1,13 +1,12 @@
 import styles from './Form.module.css'
 import HabilitacaoOptions from './HabilitacaoOptions';
 import cpfFormater from '../Functions';
+import { enviarDados } from '../Functions';
 function Form(){
     return(
-        <>
-                    
+        <>        
         <div className={styles.formWrapper}>
-
-            <form className={styles.formulario}>
+            <form className={styles.formulario} onSubmit={enviarDados}>
                         <h2 className={styles.formTitle}>Criar formulário</h2>
                 <label for="nome" className={styles.labelStyle}>Nome: <input type="text" id="nome" placeholder="Digite o nome"></input></label>
                 <label for="email" className={styles.labelStyle}>Email: <input type="text" id="email" placeholder="Digite o email"></input></label>
