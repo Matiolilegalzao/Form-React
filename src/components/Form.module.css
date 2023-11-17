@@ -6,6 +6,11 @@
     height: min-content;
     border-radius: 8px;
 }
+.formTitle {
+    display: block;
+    margin: 0;
+    padding-bottom: 1rem;
+}
 .formWrapper {
     display: flex;
     justify-content: center;
@@ -42,4 +47,16 @@
 }
 .date {
     border: 0;
+}
+.submitForm {
+    width: 90%;
+    height: 2.5rem;
+    border: 1px solid #858585;
+    background-color: rgb(18, 76, 184);
+    color: aliceblue;
+    margin-top: 1rem;
+    border-radius: 4px;
+}
+.submitForm:hover {
+    background-color: rgb(15, 67, 165);
 }
