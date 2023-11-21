@@ -2,6 +2,7 @@ import styles from './Form.module.css'
 import HabilitacaoOptions from './HabilitacaoOptions';
 import cpfFormater from '../Functions';
 import { enviarDados } from '../Functions';
+import SexoOptions from './SexoOption';
 function Form(){
     return(
         <>        
@@ -13,6 +14,8 @@ function Form(){
                 <label for="endereco" className={styles.labelStyle}>Endereço: <input type="text" id="endereco" placeholder="Digite o endereço"></input></label>
                 <label for="cpf" className={styles.labelStyle}>CPF: <input type="text" id="cpf" placeholder="Digite o CPF"></input></label>
                 <label for="lotacao" className={styles.labelStyle}>Lotacao: <input type="text" id="cpf" placeholder="Informe o setor"></input></label>
+
+                <SexoOptions></SexoOptions>
                 <label for="selecaoHabilitacao" className={styles.labelSelect}>Tem carteira de motorista?
                     <HabilitacaoOptions></HabilitacaoOptions>
                 </label>
